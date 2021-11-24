@@ -8,6 +8,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 10px 30px;
 }
 
 .container{
@@ -28,10 +29,13 @@ h3 {
 }
 h1 {
 	font-size: 1.875em;
+	line-height: 2.5em;
 	width: 100%;
+	border-bottom: 3px solid #77a466;
 }
+
 h2 {
-	font-size: 1.125em;
+	font-size: 1.25em;
 }
 h3 {
 	font-size: .75em;
@@ -40,16 +44,13 @@ h3 {
 p {
 	font-size: .875em;
 	line-height: 21px;
-    padding: 0 30px;
 }
 
 /*The widths are in a percentage!*/
 header {
-	border-bottom: 3px solid #77a466;
-	display: flex;
+	
 	justify-content: center;
 	align-items: center;
-	flex-wrap: wrap;
 	text-align: center;
 }
 
@@ -61,6 +62,8 @@ header nav ul {
 	margin: 0;
 	padding: 0;
 	width: 100%;
+	list-style-type: none;
+	line-height: 2.5em;	
 }
 
 header nav ul li {
@@ -68,8 +71,7 @@ header nav ul li {
 	font-weight: 700;
 	font-size: .875em;
 	padding: 0 10px;
-	display: inline;
-	width: 100%;
+	width: 100%;	
 }
 
 header nav ul li a{
@@ -81,37 +83,40 @@ header nav ul li a{
 .top-section,
 .bottom-section {
 	margin: 0 auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
 .main-image {
 	height: auto;
 }
+
 .main-image img {
-	width: 100%;
+	width: 95%;
 	border-bottom: 3px solid #77a466;
+	border-top: 3px solid #77a466;
+	margin-top: 1.5em;
 }
 
 .main-title {
 	height: auto;
-}
-.main-title h2 {
 	text-align: left;
-	padding: 5px 0;
+	width: 100%;
+}
+
+.main-title h2 {
+	font-size: 1.1em;
+	
 	color: #77a466;
 }
+
 .main-title p {
 	padding: 0;
 	font-size: 1em;
-	line-height: 25px;
+	line-height: 1.563em;
 }
 
 .section-one,
 .section-two,
 .section-three {
-	width: 33%;
 	height: auto;
 	border-top: 1px solid #eee;
 }
@@ -120,14 +125,8 @@ header nav ul li a{
 	padding: 10px 0;
 }
 
-.section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
-}
-
 .section-two h3,
 .section-three h3 {
-	padding: 10px 30px;
 }
 
 .menu {
@@ -153,6 +152,7 @@ header nav ul li a{
 /*The widths are in a percentage!*/
 footer {
 	border-top: 3px solid #eee;
+	width: 100%;
 	margin: 0 auto;
 	text-align: center;
 	display: flex;
@@ -165,3 +165,5 @@ footer span {
 	color: #77a466;
 	font-size: .875em;
 }
+
+
